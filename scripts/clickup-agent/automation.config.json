@@ -1,0 +1,20 @@
+{
+  "recipe": "clickup/project-agent",
+  "runtime": "github-actions",
+  "brain": "claude-code",
+  "handlers": "tasks",
+  "github_repo": "ashishkalathiya1990/AI-Clickup-Agent",
+  "clickup_team_id": "1300430000010578",
+  "clickup_list_id": "1300430000066500",
+  "status_analyze": "To Do",
+  "status_implement": "IN PROGRESS",
+  "agent_name": "Clickup Agent",
+  "project_name": "AI Clickup Agent",
+  "audience": "The Team",
+  "stack_note": "follow the conventions in CLAUDE.md / README",
+  "branch_prefix": "ai-agent",
+  "pr_base": "main",
+  "qa_command": "none",
+  "ai_model": "claude-sonnet-5",
+  "worker_name": "ai-clickup-agent-clickup-relay"
+}
